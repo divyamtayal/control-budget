@@ -1,0 +1,169 @@
+body{
+  background-color: rgb(230, 245, 214);
+  min-height: 100vh;
+  position: relative;
+}
+@media(max-width: 530px){
+    html{
+        font-size:8px;
+    }
+}
+@media(max-width: 430px){
+    html{
+        font-size:5px;
+    }
+}
+@media (max-width: 530px){
+    body{
+        font-size:12px;
+    }
+}
+
+#banner_image {
+  background-image: url(./../img/annie-spratt-TBHOuN6URGU-unsplash.jpg);
+  background-size: cover;
+  /* making the bg-image to be in center so that it could be responsive */
+  background-position: center;
+  text-align: center;
+  color: #f8f8f8;
+  height: 100vh;
+}
+
+
+#banner_content {
+  position: relative;
+  padding: 10% 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 800px;
+  /* method to center an object */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  position: absolute;
+  padding: 10px 0;
+  background-color: #101010;
+  color: #9d9d9d;
+  bottom: 0;
+  width: 100%;
+}
+
+.offset {
+  position: relative;
+  /* margin-top: 13rem; */
+  padding: 100px 0;
+}
+
+.offset_bottom{
+    padding-bottom: 180px;
+}
+.heading_primary{
+  font-size: 3.5rem;
+  padding-bottom: 20px;
+  color: #e6e6e6;
+}
+
+@media (max-width: 530px){
+    .btn{
+        font-size:14px;
+    }
+}
+@media (max-width: 350px){
+    .btn{
+        font-size:12px;
+    }
+}
+.create_new_plan{
+  padding: 50px;
+}
+.create_new_plan div{
+  color: rgb(55, 129, 21);
+}
+.create_new_plan span{
+  color: rgb(0, 140, 255);
+}
+.pad_r{
+  padding-right: 0;
+}
+.pad_l{
+  padding-left: 0;
+}
+.float-r{
+  float: right;
+}
+.text-l{
+  text-align: left;
+}
+
+.add_icon{
+  font-size: 50px;
+  color: rgb(8, 128, 128);
+  position: absolute;
+  bottom: 7%;
+  right: 5%;
+  top: unset;
+  /*margin-top: 50px;*/
+  padding: 50px;
+}
+@media (max-width: 768px){
+    .add_icon{
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+.user{
+  width: 100%;
+  text-align: center;
+}
+.title{
+  display: inline-block;
+}
+.icon{
+  float: right;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.padding-left{
+    padding-left: 10px;
+}
+.defined_value{
+    background-color: #eee;
+}
+.btn-solid-my{
+  background-color: rgb(8, 128, 128);
+  color: #fff;
+}
+.btn-my-link{
+  color: rgb(8, 128, 128);
+}
+.btn-my-link:hover{
+  color: rgb(8, 128, 128);
+}
+.btn-solid-my:hover{
+  color: #fff;
+}
+.panel-my-border{
+  border-bottom: 1px solid #eaeaea;
+}
+.panel-my-bgcolor{
+    background-color: rgb(8, 128, 128);
+    color: #fff;
+}
+.panel{
+    border: none;
+}
+.btn-my{
+    border: 2px solid rgb(8, 128, 128);
+    color: rgb(8, 128, 128);
+    background-color: #fff;
+}
+.btn-my:hover{
+    background-color: rgb(8, 128, 128);
+    color: #fff;
+}
