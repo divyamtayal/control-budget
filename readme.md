@@ -30,10 +30,10 @@ accordingly.
 - You have successfully created ctrl_budget database.
 
 ### *Netbeans*
-- As you have already downloaded this file in your system, move this file to 'C:\wamp64\www' folder.
+- As you have already downloaded this project in your system, move this project to `C:\wamp64\www` folder.
 - Open Netbeans. (Make sure your wampserver is running before it).
 - Click on file to open the project, select the project folder i.e present in 'C:\wamp64\www' folder.
-- Click on run tab < Set Project Configuration < customize, make sure the Project URL = 'http://localhost/Project_Solution/'.
+- Click on run tab < Set Project Configuration < customize, make sure the Project URL = `http://localhost/[project_folder_name]/`.
 - You are almost there, click on Run/F6.
 - The CTRL BUDGET project will be working.
 
